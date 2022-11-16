@@ -1,5 +1,5 @@
 {% set name = "ploomber-engine" %}
-{% set version = "0.0.10" %}
+{% set version = "0.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ploomber-engine-{{ version }}.tar.gz
-  sha256: cacda2821f2e62ba08c65f5d4b747e3e2a943e7eecd0b8c41fe13c661d811bd5
+  sha256: 786c2aac4f807fee26241ab8c8ecc42129f1f4a42935179009537c50ee237452
 
 build:
   noarch: python
@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://pypi.org/project/ploomber-engine/
-  summary: Add debugging and profiling capabilities to papermill. 
+  summary: Add debugging and profiling capabilities to papermill.
   license: BSD-3-Clause
   license_file:
     - LICENSE
