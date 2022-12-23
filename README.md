@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ploomber-engine-feedstock/blob/main/LICENSE.txt)
 
-Summary: Add debugging and profiling capabilities to papermill.
+Summary: A toolbox for Jupyter notebooks: testing, experiment tracking, debugging, profiling, and more!
 
 Current build status
 ====================
