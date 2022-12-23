@@ -1,5 +1,5 @@
 {% set name = "ploomber-engine" %}
-{% set version = "0.0.16" %}
+{% set version = "0.0.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ploomber-engine-{{ version }}.tar.gz
-  sha256: 24a557b94ed226af86017267c74062f01854653d5f9a341b488e136ff700a80b
+  sha256: b053004fc24283121d76d77d1fb43872d1fc224837d10c176c98b18aa124a778
 
 build:
   noarch: python
@@ -20,14 +20,13 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    - ploomber-core >=0.0.4
-    - papermill
-    - ipykernel
+    - ploomber-core >=0.0.11
     - debuglater
     - nbclient
     - ipython
     - parso
     - nbformat
+    - click
 
 test:
   imports:
@@ -39,7 +38,7 @@ test:
 
 about:
   home: https://pypi.org/project/ploomber-engine/
-  summary: Add debugging and profiling capabilities to papermill.
+  summary: "A toolbox for Jupyter notebooks: testing, experiment tracking, debugging, profiling, and more!"
   license: BSD-3-Clause
   license_file:
     - LICENSE
