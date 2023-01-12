@@ -27,6 +27,7 @@ requirements:
     - parso
     - nbformat
     - click
+    - tqdm
 
 test:
   imports:
