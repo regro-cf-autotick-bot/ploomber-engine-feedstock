@@ -1,11 +1,11 @@
-About ploomber-engine
-=====================
+About ploomber-engine-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ploomber-engine-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/ploomber-engine/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ploomber-engine-feedstock/blob/main/LICENSE.txt)
 
 Summary: A toolbox for Jupyter notebooks: testing, experiment tracking, debugging, profiling, and more!
 
