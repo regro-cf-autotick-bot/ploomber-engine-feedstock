@@ -1,5 +1,5 @@
 {% set name = "ploomber-engine" %}
-{% set version = "0.0.22" %}
+{% set version = "0.0.23" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ploomber-engine-{{ version }}.tar.gz
-  sha256: fc5159caab77d8333c83bc0c7dab67ba9644b62c0d7dee6b8fe5350ff175c627
+  sha256: 7f4d2dde4764feaf07dab1d9494ed9cc402e7cd6ffb56afe9254524483d6ab25
 
 build:
   noarch: python
