@@ -1,5 +1,5 @@
 {% set name = "ploomber-engine" %}
-{% set version = "0.0.31" %}
+{% set version = "0.0.32" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ploomber-engine-{{ version }}.tar.gz
-  sha256: d0d2f64dab57e3ec630de75067f800d545a014f26d27000ef9d01b920592bb77
+  sha256: 774f6e11106ba8468249030cc5921aed5214c9ee0afc944c1eb4ea284f3ce957
 
 build:
   noarch: python
@@ -19,6 +19,7 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - ploomber-extension
     - python >=3.6
     - ploomber-core >=0.2
     - debuglater >=1.4.4
